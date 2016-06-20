@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>OOP1</title>
+</head>
+<body>
+
+
+----------<br>
+<button id="btn2" onclick="myWin()">setTimeout</button>
+<script type="text/javascript">
+	var person={
+			name:"Kuby",
+			age:33,
+			eat:function(){alert("I am eatting");}
+	}
+	alert(person.name);
+
+	function People(){
+		
+	}
+	People.prototype={
+			name:"Kuby One",
+			age:34,
+			eat:function(){
+				alert("我在吃。。。");
+			}
+	}
+	var p=new People();
+	p.eat();
+
+</script>
+</body>
+</html>
